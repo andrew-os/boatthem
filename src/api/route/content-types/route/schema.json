@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "routes",
+  "info": {
+    "singularName": "route",
+    "pluralName": "routes",
+    "displayName": "Routes",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Island": {
+      "type": "string"
+    },
+    "IsSpecial": {
+      "type": "boolean",
+      "default": false
+    },
+    "Info": {
+      "type": "richtext"
+    },
+    "Cost": {
+      "type": "integer"
+    }
+  }
+}

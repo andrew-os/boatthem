@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_times_departure_times",
+  "info": {
+    "displayName": "Departure times"
+  },
+  "options": {},
+  "attributes": {
+    "Time": {
+      "type": "time",
+      "default": "10:15"
+    }
+  }
+}

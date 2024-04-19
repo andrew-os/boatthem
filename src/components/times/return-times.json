@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_times_return_times",
+  "info": {
+    "displayName": "Return times",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Time": {
+      "type": "time"
+    },
+    "ReturnQuay": {
+      "type": "enumeration",
+      "enum": [
+        "Church Quay",
+        "Annikas Quay",
+        "New Grimsby",
+        "Carn Near",
+        "Old Grimsby",
+        "Lower Town",
+        "Higher Town"
+      ]
+    }
+  }
+}

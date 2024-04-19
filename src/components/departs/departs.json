@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_departs_departs",
+  "info": {
+    "displayName": "Departs",
+    "icon": "clock"
+  },
+  "options": {},
+  "attributes": {
+    "Departs": {
+      "type": "time"
+    }
+  }
+}

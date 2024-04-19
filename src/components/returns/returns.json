@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_returns_returns",
+  "info": {
+    "displayName": "Returns",
+    "icon": "clock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Time": {
+      "type": "time"
+    }
+  }
+}

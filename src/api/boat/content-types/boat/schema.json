@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "boats",
+  "info": {
+    "singularName": "boat",
+    "pluralName": "boats",
+    "displayName": "Boats",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Alias": {
+      "type": "string",
+      "unique": true
+    }
+  }
+}

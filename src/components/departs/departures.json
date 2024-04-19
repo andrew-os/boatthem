@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_departs_departures",
+  "info": {
+    "displayName": "Departures"
+  },
+  "options": {},
+  "attributes": {
+    "Departs": {
+      "type": "time",
+      "default": "10:15"
+    },
+    "Returns": {
+      "type": "time"
+    }
+  }
+}

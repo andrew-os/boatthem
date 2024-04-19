@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_trips_trips",
+  "info": {
+    "displayName": "Trips",
+    "icon": "clock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "boats": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::boat.boat"
+    },
+    "routes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::route.route"
+    },
+    "Departs": {
+      "displayName": "Departure times",
+      "type": "component",
+      "repeatable": true,
+      "component": "times.departure-times"
+    },
+    "Returns": {
+      "displayName": "Return times",
+      "type": "component",
+      "repeatable": true,
+      "component": "times.return-times"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Steps": {
+      "type": "enumeration",
+      "enum": [
+        "One",
+        "Two",
+        "Three",
+        "Four",
+        "Five",
+        "Old Quay"
+      ]
+    }
+  }
+}

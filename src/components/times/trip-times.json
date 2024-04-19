@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_times_trip_times",
+  "info": {
+    "displayName": "Trip times",
+    "icon": "clock"
+  },
+  "options": {},
+  "attributes": {
+    "Departs": {
+      "type": "time",
+      "default": "10:15"
+    },
+    "Returns": {
+      "type": "time"
+    }
+  }
+}
